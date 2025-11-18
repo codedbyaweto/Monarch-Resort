@@ -1,0 +1,199 @@
+body {
+   font-family: "Funnel Display", sans-serif;
+   margin: 0;
+   color: #2b283a;
+}
+
+/* Typography */
+h1 {
+   font-family: "Lavishly Yours", cursive;
+   font-weight: 400;
+   font-style: normal;
+}
+
+h1, h3 {
+   margin: 0;
+}
+
+h1 {
+   color: ;
+   font-size: 2.5rem;
+}
+
+h2 {
+   font-size: 1.5rem;
+}
+
+h3 {
+   font-size: 1.25rem;
+}
+
+p {
+   line-height: 1.5;
+}
+
+.subheading {
+   display: block;
+   font-size: 1rem;
+   font-family: "Funnel Display", sans-serif;
+}
+
+.section-two h2 {
+   color: inherit;
+}
+
+
+/* Links */
+a {
+   color: #efe6dd;
+   text-decoration: underline;
+}
+
+a:hover
+a:active {
+   color: #d4b44c;
+}
+
+.btn {
+   font-size: 1.125rem;
+   text-align: center;
+   text-decoration: none;
+   padding: 0.5em 1em;
+   margin-bottom: 1em;
+   border-radius: 4.6px;
+}
+
+
+.btn-mid {
+   color: #6f9ceb;
+   border: 1px solid gray;
+
+}
+.btn:hover,
+.btn:active {
+   color: #d4b44c;
+}
+
+/* Layout */
+
+header, 
+section,
+footer {
+   padding: 1.25em 0;
+}
+
+header,
+.section-two {
+   background-color: #6f9ceb;   
+   color: #f2f7f2;
+}
+
+.container {
+   width: 90%;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.main-image {
+   display: block;
+   width: 100%;
+   max-width: 800px;
+   margin: 0 auto 2em;
+}
+
+.section-two-image-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1em;
+}
+
+.feature-image {
+   width: 100%;
+   border-radius: 4.6px;
+   height: 250px;
+   object-fit: cover;
+}
+
+.feature-item {
+   flex: 1 260px;
+}
+
+footer {
+   text-align: center;
+}
+
+/* Navigation */
+
+nav a {
+   text-decoration: none;
+   font-size: 1.125rem;
+   padding: 0.85em 0;
+   display: block;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+} 
+
+@media (max-width: 767px) {
+   header {
+      text-align: center;
+   }
+
+   nav {
+      margin-top: 0.5rem
+   }
+
+   li:not(:last-child) {
+      border-bottom: 1px dotted ;
+   }
+}
+
+@media (min-width: 768px) {
+   header,
+   section,
+   footer {
+      padding: 2.875em 0;
+   }
+
+    header .container {
+      display: flex;
+    }
+
+  
+   nav ul {
+      display: flex;
+   }
+
+   header .container {
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   nav li {
+      margin-left: 1.25em;
+   }
+
+   .btn {
+      display: inline-block;
+      margin-right: 0.5em;
+   }
+
+   h1 {
+      font-size: 2.25rem;
+   }
+
+   h2 {
+      font-size: 1.75rem;
+   }
+
+   .subheading {
+      font-size: 1.25rem;
+   }
+
+   p {
+      font-size: 1.125rem;
+   }
+}
