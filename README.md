@@ -1,4 +1,4 @@
-# Monarch Resort Website
+# Monarch Resort Website(monarchresort.netlify.app)
 
 A fully responsive landing page designed for a luxury hotel brand. This project showcases elegant UI design using clean HTML and CSS. It includes a hero section, room showcase, navigation menu, and call-to-action buttons that guide users through the resort’s offerings.
 
