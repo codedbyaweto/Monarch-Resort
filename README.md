@@ -1,2 +1,17 @@
-# Monarch-Resort
-The Monarch Resort website is a modern, responsive landing page designed for a luxury hotel brand. It features elegant typography, a clean layout, a hero section, a room showcase with images, and a simple navigation menu. Built with HTML and CSS, the design focuses on clarity, usability, and an inviting visual experience.
+# Monarch Resort Website
+
+A fully responsive landing page designed for a luxury hotel brand. This project showcases elegant UI design using clean HTML and CSS. It includes a hero section, room showcase, navigation menu, and call-to-action buttons that guide users through the resort’s offerings.
+
+## Features
+- Responsive layout for mobile and desktop
+- Elegant typography using Google Fonts
+- Clean navigation menu
+- Featured room/section with images
+- Buttons for booking and viewing rooms
+- Organized sections for easy content flow
+
+## Technologies Used
+- HTML5
+- CSS3
+- Google Fonts
+
