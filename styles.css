@@ -84,10 +84,6 @@ footer {
 
 header,
 .section-two {
-   background-image: url("images/intro-bg.png");
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
    background-color: #6f9ceb;   
    color: #f2f7f2;
 }
